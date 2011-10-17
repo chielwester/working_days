@@ -1,0 +1,31 @@
+== Working Days
+
+Add Working Days support to the Ruby Time Class
+
+=== Introduction
+
+This gem adds functions to the Ruby Time Class to calculate working days
+
+=== Installation
+
+Just add the gem to your Gemfile and run bundle install
+
+=== How-To-Use
+
+You can add a number of workig days to an existing Time object:
+
+  Time.now.plus_working_days(6)
+
+By default saturdays and sunday are not counted as working days
+
+=== Authors
+
+* Chiel Wester ({github.com/chielwester}[http://github.com/chielwester])
+
+=== Contact us
+
+For support, remarks and requests, please mail me at {chiel.wester@holder.nl}[mailto:chiel.wester@holder.nl].
+
+=== License
+
+MIT License. Copyright 2011 Internetbureau Holder B.V. - http://www.holder.nl
