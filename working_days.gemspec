@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = WorkingDays::VERSION
   s.authors     = ["Chiel Wester"]
   s.email       = ["chiel.wester@holder.nl"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/chielwester/working_days"
   s.summary     = "Working days time extension"
   s.description = "Add a number of working days to a Time object"
 
